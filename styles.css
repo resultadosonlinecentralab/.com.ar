@@ -133,3 +133,10 @@ and (orientation : landscape) {
     width: 160px;
     height: 60px;
 }
+
+@media (max-width: 764px){
+    .cuadroData{
+        width: 100%;
+        text-align: center;
+    }
+}
