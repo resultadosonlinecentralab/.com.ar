@@ -134,9 +134,36 @@ and (orientation : landscape) {
     height: 60px;
 }
 
-@media (max-width: 764px){
+@media (max-width: 664px){
     .cuadroData{
         width: 100%;
+        text-align: center;
+    }
+    .cuadroData2{
+        display: none;
+    }
+    .cuadroData3{
+        display: none;
+    }
+    .cuadroData4{
+        display: none;
+    }
+}
+
+@media (min-width: 665px){
+    .cuadroData{
+       display: none;
+    }
+    .cuadroData2{
+        width: 100%;
+        text-align: center;
+    }
+    .cuadroData3{
+        width: 97%;
+        text-align: center;
+    }
+    .cuadroData4{
+        width: 102%;
         text-align: center;
     }
 }
