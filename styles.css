@@ -1,0 +1,135 @@
+.bannerTopImg2{
+    display: block;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 500px) {
+    .bannerTop{
+        width: 100%;
+    }
+    
+    .bannerTopImg{
+        width: 100%;
+    }
+    
+    .titleCard{
+        margin-top: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6rem;
+        margin-left: 12.5%;
+        display: block;
+    }
+    
+    .navBannerTop{
+        margin-top: -7px;
+        position: fixed;
+    }
+    
+    .boxInfo{
+        display: flex;
+        justify-content: center;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+    
+    .title{
+        height: 120px;
+    }
+    
+    .trTitle{
+        background-color: rgb(136, 136, 237);
+    }
+    
+    .buttonDownload{
+        margin-left: 12.5%;
+        background-color: rgb(45, 136, 216);
+        color: white;
+        margin-top: -1px;
+        border-radius: 5px;
+        height: 60px;
+    }
+    
+}
+
+.bannerTop{
+    width: 100%;
+}
+
+.bannerTopImg{
+    width: 100%;
+}
+
+.titleCard{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin-left: 12.5%;
+    display: block;
+}
+
+.navBannerTop{
+    margin-top: -7px;
+}
+
+.boxInfo{
+    display: flex;
+    justify-content: center;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.title{
+    height: 120px;
+}
+
+.trTitle{
+    background-color: rgb(136, 136, 237);
+}
+
+.buttonDownload{
+    margin-left: 12.5%;
+    color: white;
+    margin-top: -1px;
+    border-radius: 5px;
+    width: 160px;
+    height: 60px;
+}
+
+.btnDownload{
+    color: white;
+    font-size: 12px;
+}
+
+.btnDownload2{
+    color: rgb(238, 68, 68);
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.lineDownload{
+    border-left: 1px solid #000000;
+    margin: 8px;
+}
+
+.bannerTopImg{
+    display: none;
+}
+
+@media(min-width : 414x) 
+and (orientation : landscape) {
+    .titleCard{
+        margin-top: -20px;
+    }
+}
+
+.buttonDownload{
+    margin-left: 12.5%;
+    background-color: rgb(45, 136, 216);
+    color: white;
+    margin-top: -1px;
+    border-radius: 5px;
+    width: 160px;
+    height: 60px;
+}
